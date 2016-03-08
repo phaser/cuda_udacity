@@ -1,0 +1,3 @@
+[submodule "KRAL"]
+	path = KRAL
+	url = git@github.com:phaser/KRAL.git
