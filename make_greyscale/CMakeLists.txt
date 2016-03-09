@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 2.8)
-set (PROJ_NAME "cuda_simple_example")
+set (PROJ_NAME "make_greyscale")
 set (CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${KRAL_PATH})
 project (${PROJ_NAME})
 include (main)

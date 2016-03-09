@@ -26,3 +26,9 @@ add_target (cuda_basic_example
         "-O4 -Wall -DPLATFORM_OSX -std=c++11 -stdlib=libc++"
 )
 
+add_target (make_greyscale
+    INHERIT         cuda_basic_example
+    PROJECT_DIR     ${CMAKE_CURRENT_LIST_DIR}/make_greyscale
+    BUILD_DIR       make_greyscale
+)
+
